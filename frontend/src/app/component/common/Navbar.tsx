@@ -46,21 +46,21 @@ export default function Navbar() {
     //     load();
     // }, []);
 
-    useEffect(() => {
-        async function load() {
-            const res = await fetch(
-                `${process.env.NEXT_PUBLIC_API_URL}/api/services?locale=en&populate=*`
-            );
+    // useEffect(() => {
+    //     async function load() {
+    //         const res = await fetch(
+    //             `${process.env.NEXT_PUBLIC_API_URL}/api/services?locale=en&populate=*`
+    //         );
 
-            const data = await res.json();
+    //         const data = await res.json();
 
-            console.log("Services (EN only):", data.data);
+    //         console.log("Services (EN only):", data.data);
 
-            setServices(data.data);
-        }
+    //         setServices(data.data);
+    //     }
 
-        load();
-    }, []);
+    //     load();
+    // }, []);
 
     const { t, i18n } = useTranslation();
     const isRTL = i18n.language === "ar";

@@ -3,9 +3,11 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 export default function EmailSubscribe() {
     const [showError, setShowError] = useState(false);
+    const { t, i18n } = useTranslation();
 
     return (
         <div className="w-full flex justify-end relative">
@@ -44,7 +46,7 @@ export default function EmailSubscribe() {
                                 <Field
                                     name="email"
                                     type="email"
-                                    placeholder="Email"
+                                    placeholder={t("email")}
                                     className="
                     w-[200px]
                     bg-transparent outline-none 
@@ -61,7 +63,7 @@ export default function EmailSubscribe() {
                     text-sm
                   "
                                 >
-                                    Subscribe
+                                    {t('subscribe')}
                                 </button>
                             </div>
 

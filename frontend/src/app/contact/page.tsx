@@ -8,7 +8,7 @@ import * as Yup from "yup";
 import toast from "react-hot-toast";
 import Hero from "../component/contact/Hero";
 import Footer from "../component/common/Footer";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function ContactPage() {
     const { t, i18n } = useTranslation();

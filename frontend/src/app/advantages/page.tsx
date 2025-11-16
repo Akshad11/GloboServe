@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import PageHero from "../component/common/PageHero";
 import Footer from "../component/common/Footer";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function AdvantagesPage() {
     const { t, i18n } = useTranslation();

@@ -10,7 +10,7 @@ import Team4 from "@/assets/person1.png";
 import Hero from "../component/team/Hero";
 import Footer from "../component/common/Footer";
 import { Mail, MessageCircle, Phone } from "lucide-react";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function TeamPage() {
     const { t, i18n } = useTranslation();
