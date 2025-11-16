@@ -247,7 +247,7 @@ export default function Navbar() {
                                             transition={{ delay: index * 0.03 }}
                                             className="text-sm hover:text-yellow-200 cursor-pointer block"
                                         >
-                                             <Link href={link}>{service.title}</Link>
+                                             <Link href={service.link}>{service.title}</Link>
                                         </motion.a>
                                     );
                                 })}
