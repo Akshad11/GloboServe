@@ -8,11 +8,12 @@ import * as Yup from "yup";
 import toast from "react-hot-toast";
 import Hero from "../component/contact/Hero";
 import Footer from "../component/common/Footer";
+import { useRouter } from "next/router";
 
 export default function ContactPage() {
     const { t, i18n } = useTranslation();
     const isRTL = i18n.language === "ar";
-
+    const router = useRouter();
     // Formik validation schema
     const validationSchema = Yup.object({
         name: Yup.string().required(t("contactPage.errors.name")),
@@ -31,7 +32,25 @@ export default function ContactPage() {
             <Hero />
             <div className={`min-h-screen bg-white text-black px-6 md:px-20 py-16 ${isRTL ? "text-right" : "text-left"}`}>
 
-                {/* GRID: contactPage INFO + FORM */}
+                {/* BACK BUTTON */}
+                <motion.button
+                    onClick={() => router.back()}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.4 }}
+                    className="
+                    flex items-center gap-2 mb-10 
+                    text-[#643F2E] font-medium 
+                    hover:underline hover:opacity-80 
+                    transition
+                "
+                >
+                    <span className="text-2xl">
+                        {isRTL ? "→" : "←"}
+                    </span>
+                    <span>{t("back")}</span>
+                </motion.button>
+
                 <div className="grid md:grid-cols-2 gap-12">
 
                     {/* contactPage INFO */}

@@ -10,11 +10,12 @@ import Team4 from "@/assets/person1.png";
 import Hero from "../component/team/Hero";
 import Footer from "../component/common/Footer";
 import { Mail, MessageCircle, Phone } from "lucide-react";
+import { useRouter } from "next/router";
 
 export default function TeamPage() {
     const { t, i18n } = useTranslation();
     const isRTL = i18n.language === "ar";
-
+    const router = useRouter();
     const teamMembers = [
         { name: t("teamPage.members.1.name"), role: t("teamPage.members.1.role"), image: Team1 },
         { name: t("teamPage.members.2.name"), role: t("teamPage.members.2.role"), image: Team2 },
@@ -26,6 +27,24 @@ export default function TeamPage() {
         <div>
             <Hero />
             <div className={`min-h-screen bg-white px-6 md:px-20 py-16 ${isRTL ? "text-right" : "text-left"}`}>
+                {/* BACK BUTTON */}
+                <motion.button
+                    onClick={() => router.back()}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.4 }}
+                    className="
+                    flex items-center gap-2 mb-10 
+                    text-[#643F2E] font-medium 
+                    hover:underline hover:opacity-80 
+                    transition
+                "
+                >
+                    <span className="text-2xl">
+                        {isRTL ? "→" : "←"}
+                    </span>
+                    <span>{t("back")}</span>
+                </motion.button>
 
                 {/* teamPage GRID */}
                 <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10`}>

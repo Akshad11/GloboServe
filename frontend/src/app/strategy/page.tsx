@@ -4,11 +4,12 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import PageHero from "../component/common/PageHero";
 import Footer from "../component/common/Footer";
+import { useRouter } from "next/router";
 
 export default function StrategyPage() {
     const { t, i18n } = useTranslation();
     const isRTL = i18n.language === "ar";
-
+    const router = useRouter();
     const strategy = t("strategy", { returnObjects: true }) as any;
 
     return (
@@ -18,6 +19,24 @@ export default function StrategyPage() {
                 subtitle={strategy.subtitle}
             />
             <div className={`min-h-screen bg-white px-6 md:px-20 py-16 ${isRTL ? "text-right" : "text-left"}`}>
+                {/* BACK BUTTON */}
+                <motion.button
+                    onClick={() => router.back()}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.4 }}
+                    className="
+                    flex items-center gap-2 mb-10 
+                    text-[#643F2E] font-medium 
+                    hover:underline hover:opacity-80 
+                    transition
+                "
+                >
+                    <span className="text-2xl">
+                        {isRTL ? "→" : "←"}
+                    </span>
+                    <span>{t("back")}</span>
+                </motion.button>
 
                 {/* SECTIONS */}
                 <div className="space-y-16">

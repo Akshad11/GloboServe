@@ -10,11 +10,12 @@ import Team3 from "@/assets/person1.png";
 import Team4 from "@/assets/person1.png";
 import Hero from "../component/aboutPage/Hero";
 import Footer from "../component/common/Footer";
+import { useRouter } from "next/router";
 
 export default function AboutUsPage() {
     const { t, i18n } = useTranslation();
     const isRTL = i18n.language === "ar";
-
+    const router = useRouter();
     const teamMembers = [
         { name: t("aboutPage.team_member1_name"), role: t("aboutPage.team_member1_role"), image: Team1 },
         { name: t("aboutPage.team_member2_name"), role: t("aboutPage.team_member2_role"), image: Team2 },
@@ -34,6 +35,24 @@ export default function AboutUsPage() {
             <Hero />
             <div className={`min-h-screen bg-white text-black px-6 md:px-20 py-16 ${isRTL ? "text-right" : "text-left"}`}>
 
+                {/* BACK BUTTON */}
+                <motion.button
+                    onClick={() => router.back()}
+                    initial={{ opacity: 0, x: -20 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.4 }}
+                    className="
+                    flex items-center gap-2 mb-10 
+                    text-[#643F2E] font-medium 
+                    hover:underline hover:opacity-80 
+                    transition
+                "
+                >
+                    <span className="text-2xl">
+                        {isRTL ? "→" : "←"}
+                    </span>
+                    <span>{t("back")}</span>
+                </motion.button>
 
                 {/* WHO WE ARE */}
                 <motion.div

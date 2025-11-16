@@ -1,0 +1,140 @@
+# -------------------------
+# OS files
+# -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# -------------------------
+# Editor / IDE
+# -------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -------------------------
+# Node / JS
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+# keep package-lock.json / yarn.lock? usually keep them for reproducible installs
+# package-lock.json
+# yarn.lock
+
+# -------------------------
+# Next.js / Frontend build
+# -------------------------
+.next/
+out/
+dist/
+build/
+.cache/
+.vercel/
+.now/
+
+# -------------------------
+# Strapi / Backend build & runtime
+# -------------------------
+/backend/build/
+/backend/dist/
+/backend/.cache/
+/backend/.tmp/
+# Strapi uploads / generated files
+/backend/public/uploads/
+/backend/public/.cache/
+/backend/.cache/
+
+# If Strapi uses an uploads folder elsewhere:
+uploads/
+public/uploads/
+
+# Database files (if using SQLite in development)
+*.db
+*.sqlite
+*.sqlite3
+/backend/*.db
+/backend/*.sqlite
+/backend/*.sqlite3
+
+# -------------------------
+# Environment files / Secrets
+# -------------------------
+.env
+.env.local
+.env.*.local
+.env.production
+.env.test
+.env.development
+.env.*.backup
+
+# Next.js env build output
+.env.build
+
+# -------------------------
+# Logs
+# -------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# -------------------------
+# Test coverage / reports
+# -------------------------
+coverage/
+coverage-final.json
+nyc_output/
+
+# -------------------------
+# Temporary files
+# -------------------------
+tmp/
+temp/
+*.tmp
+
+# -------------------------
+# OS generated Thumbnails / Icon files
+# -------------------------
+Icon?
+.Spotlight-V100
+
+# -------------------------
+# Optional: lockfiles
+# -------------------------
+# If you do NOT want to commit lockfiles, uncomment these:
+# package-lock.json
+# yarn.lock
+
+# -------------------------
+# Optional: local config / secrets folders
+# -------------------------
+.local/
+.vagrant/
+*.env.local
+
+# -------------------------
+# Submodules (if you accidentally created one)
+# -------------------------
+/frontend/.git
+/backend/.git
+
+# -------------------------
+# Misc
+# -------------------------
+*.bak
+*.swp
+*.swo
