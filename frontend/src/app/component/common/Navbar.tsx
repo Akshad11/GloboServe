@@ -231,11 +231,25 @@ export default function Navbar() {
                                     ${isRTL ? "text-right pr-4" : "pl-4"}
                                 `}
                             >
-                                {SERVICE_LIST.map((key) => (
-                                    <p key={key} className="py-2 text-sm hover:text-yellow-200">
-                                        {t(key)}
-                                    </p>
-                                ))}
+                                {SERVICE_LIST.map((key, index) => {
+                                    const service = t(`services.${key}`, { returnObjects: true }) as {
+                                        title: string;
+                                        link: string;
+                                    };
+
+                                    return (
+                                        <motion.a
+                                            key={key}
+                                            href={service.link}
+                                            initial={{ opacity: 0, y: 15 }}
+                                            animate={{ opacity: 1, y: 0 }}
+                                            transition={{ delay: index * 0.03 }}
+                                            className="text-lg hover:text-yellow-200 cursor-pointer block"
+                                        >
+                                            {service.title}
+                                        </motion.a>
+                                    );
+                                })}
                             </div>
                         )}
                     </div>
