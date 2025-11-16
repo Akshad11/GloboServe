@@ -13,21 +13,21 @@ export default function Testimonials() {
     const testimonialList = [
         {
             image: Avatarimg.src,
-            message: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-            name: "John David",
-            position: "CEO, Company Inc."
+            message: t("testimonials.t1_message"),
+            name: t("testimonials.t1_name"),
+            position: t("testimonials.t1_position")
         },
         {
             image: Avatarimg.src,
-            message: "This company has truly exceeded expectations. Amazing attention to detail.",
-            name: "Sarah Miles",
-            position: "Founder, VisionTech"
+            message: t("testimonials.t2_message"),
+            name: t("testimonials.t2_name"),
+            position: t("testimonials.t2_position")
         },
         {
             image: Avatarimg.src,
-            message: "Great service and a wonderful team. Professional and dedicated.",
-            name: "Michael Lee",
-            position: "Director, Business Hub"
+            message: t("testimonials.t3_message"),
+            name: t("testimonials.t3_name"),
+            position: t("testimonials.t3_position")
         }
     ];
 

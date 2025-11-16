@@ -566,5 +566,16 @@
             "title": "Arbitration",
             "short": "Professional arbitration services to resolve disputes efficiently."
         }
-    ]
+    ],
+    "testimonials": {
+        "t1_message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "t1_name": "John David",
+        "t1_position": "CEO, Company Inc.",
+        "t2_message": "This company has truly exceeded expectations. Amazing attention to detail.",
+        "t2_name": "Sarah Miles",
+        "t2_position": "Founder, VisionTech",
+        "t3_message": "Great service and a wonderful team. Professional and dedicated.",
+        "t3_name": "Michael Lee",
+        "t3_position": "Director, Business Hub"
+    }
 }
