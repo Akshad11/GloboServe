@@ -8,6 +8,7 @@
     "book": "Book Appointment",
     "english": "English",
     "arabic": "Arabic",
+    "home": "Home",
     "services": {
         "legal_consultation": {
             "title": "Legal Consultation Services",

@@ -88,6 +88,9 @@ export default function Navbar() {
                         `}
                     >
                         <li className="hover:text-gray-300 cursor-pointer">
+                            <Link href="/">{t("home")}</Link>
+                        </li>
+                        <li className="hover:text-gray-300 cursor-pointer">
                             <Link href="/about">{t("about")}</Link>
                         </li>
                         {/* SERVICES (hover only) */}
