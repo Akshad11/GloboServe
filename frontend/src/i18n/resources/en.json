@@ -1,0 +1,567 @@
+{
+    "about": "About Us",
+    "service": "Service",
+    "team": "Our Team",
+    "blogs": "Blogs",
+    "contact": "Contact Us",
+    "dropdown": "Dropdown Box",
+    "book": "Book Appointment",
+    "english": "English",
+    "arabic": "Arabic",
+    "services": {
+        "legal_consultation": {
+            "title": "Legal Consultation Services",
+            "text": "Professional legal consultation services for individuals, businesses, and institutions.",
+            "link": "/service/legal-consultation-services"
+        },
+        "foreign_investment": {
+            "title": "Foreign Investment Services",
+            "text": "Guidance and support for international investors entering local markets.",
+            "link": "/service/foreign-investment-services"
+        },
+        "contracts": {
+            "title": "Contracts",
+            "text": "Drafting, reviewing, and managing all types of legal contracts.",
+            "link": "/service/contracts"
+        },
+        "defense_cases": {
+            "title": "Defense in All Cases",
+            "text": "Legal defense representation across various case types.",
+            "link": "/service/defense-in-all-cases"
+        },
+        "company_services": {
+            "title": "Services for Companies and Institutions",
+            "text": "Comprehensive legal services for companies and institutional clients.",
+            "link": "/service/services-for-companies-and-institutions"
+        },
+        "banks_finance": {
+            "title": "Banks and Financial Institutions",
+            "text": "Legal support for banking, finance, and regulatory requirements.",
+            "link": "/service/banks-and-financial-institutions"
+        },
+        "arbitration": {
+            "title": "Arbitration",
+            "text": "Local and international arbitration services for dispute resolution.",
+            "link": "/service/arbitration"
+        },
+        "notarization": {
+            "title": "Notarization",
+            "text": "Official notarization services for legal and business documents.",
+            "link": "/service/notarization"
+        },
+        "insurance": {
+            "title": "Insurance",
+            "text": "Legal services related to insurance claims and compliance.",
+            "link": "/service/insurance"
+        },
+        "governance": {
+            "title": "Corporate Governance Services",
+            "text": "Governance, compliance, and regulatory advisory for corporations.",
+            "link": "/service/corporate-governance-services"
+        },
+        "liquidation": {
+            "title": "Companies Liquidation",
+            "text": "Assisting companies through the complete liquidation process.",
+            "link": "/service/companies-liquidation"
+        },
+        "internal_regulations": {
+            "title": "Internal Regulations for Companies",
+            "text": "Drafting internal rules and policy frameworks for corporate governance.",
+            "link": "/service/internal-regulations-for-companies"
+        },
+        "intellectual_property": {
+            "title": "Intellectual Property",
+            "text": "Protection of trademarks, copyrights, patents, and creative works.",
+            "link": "/service/intellectual-property"
+        },
+        "restructuring": {
+            "title": "Corporate Restructuring and Reorganization",
+            "text": "Restructuring to optimize company performance and operations.",
+            "link": "/service/corporate-restructuring-and-reorganization"
+        },
+        "establishing_companies": {
+            "title": "Establishing National and Foreign Companies",
+            "text": "Company setup services for local and international investors.",
+            "link": "/service/establishing-national-and-foreign-companies"
+        },
+        "commercial_agencies": {
+            "title": "Commercial Agencies",
+            "text": "Legal services for creating and managing commercial agencies.",
+            "link": "/service/commercial-agencies"
+        },
+        "vision_2030": {
+            "title": "Supporting Vision 2030",
+            "text": "Legal solutions aligned with national transformation initiatives.",
+            "link": "/service/supporting-vision-2030"
+        },
+        "estates": {
+            "title": "Estates",
+            "text": "Estate planning, inheritance, and property services.",
+            "link": "/service/estates"
+        }
+    },
+    "carousel": {
+        "slide1": {
+            "header": "Lorem Ipsum",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        "slide2": {
+            "header": "Lorem Ipsum",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        "slide3": {
+            "header": "Lorem Ipsum",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        "slide4": {
+            "header": "Lorem Ipsum",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+    },
+    "read_more": "Read More",
+    "team_section_title": "Our Team",
+    "team_section_description": "Our professional team is committed to delivering excellence with deep expertise and dedication.",
+    "testimonials_section_title": "What our clients are saying",
+    "testimonials_section_description": "Our clients range from individual investors, to local, international as well as fortune 500 companies. Our clients range from individual investors, to local, international as well as fortune 500 companies.",
+    "footer_contact": "Contact",
+    "footer_about": "About",
+    "footer_strategy": "Our Strategy",
+    "footer_advantages": "Our Advantages",
+    "footer_responsibility": "Social Responsibility",
+    "footer_services": "Our Services",
+    "footer_all_rights": "All rights reserved.",
+    "hero_services": {
+        "title": "Your Trusted Legal Partner",
+        "subtitle": "We provide professional and reliable legal services designed to protect your rights and support your success. Explore our specialized service below."
+    },
+    "services2": {
+        "legal_consultation_services": {
+            "title": "Legal Consultation Services",
+            "intro": "Law Firm is one of the leading legal offices that offer exceptional advisory services for both individuals and companies.",
+            "sections": [
+                {
+                    "title": "General Legal Consultations",
+                    "description": "We provide strategic and comprehensive advice tailored to your personal or business needs.",
+                    "pointText": "Our general legal services include, but are not limited to:",
+                    "points": [
+                        "Comprehensive legal consultations across all legal fields.",
+                        "Accurate legal guidance based on understanding of local and international laws."
+                    ]
+                },
+                {
+                    "title": "Corporate Legal Consultations",
+                    "description": "We support companies with complete legal solutions for business growth and compliance.",
+                    "pointText": "Our corporate consulting covers:",
+                    "points": [
+                        "Establishing and registering companies.",
+                        "Drafting and reviewing all kinds of contracts and agreements.",
+                        "Managing commercial disputes and negotiations.",
+                        "Ensuring compliance with local and international regulations."
+                    ]
+                },
+                {
+                    "title": "Individual Legal Consultations",
+                    "description": "Our team provides tailored legal assistance for individuals in various aspects of daily life.",
+                    "pointText": "Common individual legal support includes:",
+                    "points": [
+                        "Family issues such as divorce, custody, and alimony.",
+                        "Real estate matters including buying, selling, and renting.",
+                        "Employment and labor disputes.",
+                        "Criminal cases and personal legal defense."
+                    ]
+                }
+            ],
+            "conclusion": "We aim to provide the best legal services to protect your rights and offer effective legal solutions. Contact us today for full legal support."
+        },
+        "foreign_investment_services": {
+            "title": "Foreign Investment Services",
+            "intro": "We offer complete guidance to foreign investors to help them establish and operate successful businesses.",
+            "sections": [
+                {
+                    "title": "Investment Support",
+                    "description": "Our legal team ensures that your investment journey is secure, compliant, and strategically sound.",
+                    "pointText": "We assist investors with:",
+                    "points": [
+                        "Structuring new investment entities.",
+                        "Ensuring regulatory compliance with local authorities.",
+                        "Providing market entry advice and business setup guidance."
+                    ]
+                },
+                {
+                    "title": "Cross-Border Legal Assistance",
+                    "description": "We help investors navigate the legal challenges of international business operations.",
+                    "pointText": "Our cross-border support covers:",
+                    "points": [
+                        "Foreign company registration.",
+                        "International tax and compliance alignment.",
+                        "Coordination with global legal authorities."
+                    ]
+                }
+            ],
+            "conclusion": "Our goal is to simplify your investment process and protect your interests at every stage."
+        }
+    },
+    "back": "Back",
+    "service_not_found": "Service Not Found",
+    "service_not_found_description": "We could not find details for this service.",
+    "aboutPage": {
+        "title": "About Us",
+        "subtitle": "We are a dedicated law firm committed to excellence and delivering high-value legal services.",
+        "who_title": "Who We Are",
+        "who_text": "Our firm has built a reputation for providing expert legal solutions across multiple sectors. Our mission is to protect our clients' rights and offer strategic legal guidance.",
+        "mission_title": "Our Mission",
+        "mission_text": "To deliver high-quality legal services with integrity, transparency, and professionalism. We aim to provide effective solutions for individuals and companies.",
+        "vision_title": "Our Vision",
+        "vision_text": "To be recognized as one of the leading legal firms offering comprehensive solutions with a strong focus on client satisfaction.",
+        "team_title": "Meet Our Team",
+        "team_member1_name": "John Smith",
+        "team_member1_role": "Senior Lawyer",
+        "team_member2_name": "Sarah Johnson",
+        "team_member2_role": "Legal Advisor",
+        "team_member3_name": "Michael Lee",
+        "team_member3_role": "Corporate Consultant",
+        "team_member4_name": "Emily Davis",
+        "team_member4_role": "Litigation Specialist",
+        "stat_clients": "Clients Served",
+        "stat_cases": "Cases Handled",
+        "stat_experience": "Years of Experience",
+        "stat_countries": "Countries Served",
+        "dev_title": "Meet the Developer",
+        "dev_text": "This platform was developed by Nilesh Yadav, a passionate software developer who focuses on delivering modern, efficient, and scalable digital solutions."
+    },
+    "teamPage": {
+        "title": "Our Team",
+        "description": "Meet the experts who lead our firm with professionalism, dedication, and years of experience.",
+        "members": {
+            "1": {
+                "name": "John Smith",
+                "role": "Senior Lawyer"
+            },
+            "2": {
+                "name": "Sarah Johnson",
+                "role": "Legal Advisor"
+            },
+            "3": {
+                "name": "Michael Lee",
+                "role": "Corporate Consultant"
+            },
+            "4": {
+                "name": "Emily Davis",
+                "role": "Litigation Specialist"
+            }
+        }
+    },
+    "contactPage": {
+        "title": "Contact Us",
+        "subtitle": "We’re here to answer your questions and provide legal assistance whenever you need.",
+        "phoneTitle": "Phone",
+        "emailTitle": "Email",
+        "addressTitle": "Address",
+        "address": "Bandra West, Mumbai, India",
+        "name": "Your Name",
+        "email": "Your Email",
+        "message": "Your Message",
+        "namePlaceholder": "Enter your full name",
+        "emailPlaceholder": "Enter your email address",
+        "messagePlaceholder": "Type your message here...",
+        "send": "Send Message",
+        "errors": {
+            "name": "Name is required",
+            "email": "Email is required",
+            "emailInvalid": "Enter a valid email",
+            "message": "Message is required",
+            "messageMin": "Message must be at least 10 characters"
+        },
+        "toastSuccess": "Message sent successfully!"
+    },
+    "blogs_page_title": "Latest Articles & Insights",
+    "previous": "Previous",
+    "next": "Next",
+    "blogs_hero": {
+        "title": "Insights, Updates & Legal Expertise",
+        "subtitle": "Stay informed with expert articles, legal analysis, business insights, and guidance crafted to help you make informed decisions with confidence."
+    },
+    "ShortBlogs": [
+        {
+            "id": "1",
+            "slug": "how-legal-advice-protects-your-business",
+            "title": "How Legal Advice Protects Your Business",
+            "excerpt": "Legal consultation helps companies avoid penalties, ensure compliance, and make smarter decisions that reduce risk.",
+            "coverImage": "https://plus.unsplash.com/premium_photo-1661559051049-f9e147c7a90b?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "date": "2025-01-14",
+            "author": "Sarah Mitchell",
+            "tags": [
+                "Legal",
+                "Business",
+                "Consultation"
+            ]
+        },
+        {
+            "id": "2",
+            "slug": "why-contract-review-is-essential",
+            "title": "Why Contract Review is Essential Before Signing",
+            "excerpt": "Most legal disputes originate from unclear or improperly reviewed contracts. Here's why reviewing contracts protects your rights.",
+            "coverImage": "https://images.unsplash.com/photo-1631557776808-91908aba7ca0?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "date": "2025-01-18",
+            "author": "David Lawson",
+            "tags": [
+                "Contracts",
+                "Legal",
+                "Business"
+            ]
+        }
+    ],
+    "FullBlog": {
+        "how-legal-advice-protects-your-business": {
+            "id": "full1",
+            "slug": "how-legal-advice-protects-your-business",
+            "title": "How Legal Advice Protects Your Business",
+            "subtitle": "A professional legal advisor is the strongest defense against financial, operational, and compliance risks.",
+            "author": "Sarah Mitchell",
+            "date": "2025-01-14",
+            "tags": [
+                "Legal",
+                "Business",
+                "Consultation"
+            ],
+            "coverImage": "https://plus.unsplash.com/premium_photo-1661559051049-f9e147c7a90b?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "gallery": [
+                "https://plus.unsplash.com/premium_photo-1661315450744-a0ba5d4a6d95?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "https://images.unsplash.com/photo-1587740896339-96a76170508d?q=80&w=1971&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ],
+            "sections": [
+                {
+                    "title": "Understanding the Role of Legal Advisors",
+                    "text": "A legal advisor helps businesses navigate complex regulations, identify risks early, and prevent costly violations."
+                },
+                {
+                    "title": "Key Benefits for Companies",
+                    "subtitle": "Why modern businesses rely on legal support",
+                    "points": [
+                        "Avoid penalties and legal disputes",
+                        "Protect company assets and reputation",
+                        "Ensure compliance with local and international laws",
+                        "Build stronger and safer business contracts"
+                    ]
+                },
+                {
+                    "quote": "Companies with legal advisors experience 60% fewer high-risk disputes."
+                },
+                {
+                    "title": "Protecting Against Lawsuits",
+                    "text": "Without legal guidance, even small mistakes can escalate into serious lawsuits. Advisors help you prepare documents, verify contracts, and handle disputes properly.",
+                    "image": "https://images.unsplash.com/photo-1630265927428-a62b061a5270?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+            ],
+            "conclusion": "Legal advice is more important than ever. It protects your company’s future and strengthens decision-making.",
+            "seo": {
+                "metaTitle": "How Legal Advice Protects Your Business",
+                "metaDescription": "Learn why legal consultation is essential for protecting your company from risks, penalties, and disputes.",
+                "keywords": [
+                    "legal advice",
+                    "business law",
+                    "consultation"
+                ]
+            }
+        },
+        "why-contract-review-is-essential": {
+            "id": "full2",
+            "slug": "why-contract-review-is-essential",
+            "title": "Why Contract Review is Essential Before Signing",
+            "subtitle": "A small clause can completely change your legal position — reviewing contracts prevents unexpected risks.",
+            "author": "David Lawson",
+            "date": "2025-01-18",
+            "tags": [
+                "Contracts",
+                "Legal",
+                "Business"
+            ],
+            "coverImage": "https://images.unsplash.com/photo-1631557776808-91908aba7ca0?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "gallery": [
+                "https://images.unsplash.com/photo-1648822145238-16e13a1591da?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "https://plus.unsplash.com/premium_photo-1661433143250-8cbdd8de33a2?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            ],
+            "sections": [
+                {
+                    "title": "The Hidden Risks in Contracts",
+                    "text": "Many individuals and companies sign contracts without fully understanding the terms, penalties, or hidden obligations."
+                },
+                {
+                    "title": "Common Mistakes People Make",
+                    "points": [
+                        "Signing without checking penalties",
+                        "Ignoring clauses on termination",
+                        "Agreeing to unclear responsibilities",
+                        "Missing deadlines written in fine print"
+                    ]
+                },
+                {
+                    "quote": "A well-reviewed contract is the first step toward avoiding legal disputes."
+                },
+                {
+                    "title": "How Lawyers Protect You",
+                    "subtitle": "Key protections offered",
+                    "points": [
+                        "Detect harmful clauses",
+                        "Negotiate better terms",
+                        "Ensure transparency between parties",
+                        "Prevent future conflicts"
+                    ],
+                    "image": "https://images.unsplash.com/photo-1685609241440-f14d86cea774?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
+            ],
+            "conclusion": "Contract review is a critical step that protects you from legal traps. Always seek professional help before signing.",
+            "seo": {
+                "metaTitle": "Why Contract Review is Essential",
+                "metaDescription": "Learn why contract review prevents hidden risks and protects your legal rights.",
+                "keywords": [
+                    "contract review",
+                    "legal contracts",
+                    "business agreements"
+                ]
+            }
+        }
+    },
+    "strategy": {
+        "title": "Our Strategy",
+        "subtitle": "A clear roadmap built to ensure excellence, innovation, and sustainable growth in every legal service we provide.",
+        "sections": [
+            {
+                "title": "Client-Centered Approach",
+                "text": "We focus on understanding each client’s individual needs and provide tailored legal strategies that ensure maximum protection and success.",
+                "points": [
+                    "Comprehensive case evaluations",
+                    "Personalized legal solutions",
+                    "Responsive and transparent communication"
+                ]
+            },
+            {
+                "title": "Excellence in Legal Expertise",
+                "text": "Our team continuously improves its knowledge to stay ahead of legal changes and industry regulations.",
+                "points": [
+                    "Continuous team training",
+                    "Deep understanding of local and international laws",
+                    "High-quality legal documentation and reviews"
+                ]
+            },
+            {
+                "title": "Innovation & Technology",
+                "text": "We integrate modern digital tools into our legal workflows to improve speed, accuracy, and accessibility.",
+                "points": [
+                    "Digital case management",
+                    "Automated legal research tools",
+                    "Secure online consultations"
+                ]
+            },
+            {
+                "title": "Long-Term Strategic Vision",
+                "text": "We aim not only to solve today’s problems but to build a compliant, sustainable future for our clients.",
+                "points": [
+                    "Risk prediction and prevention",
+                    "Strategic business-oriented legal planning",
+                    "Supporting long-term growth and legal stability"
+                ]
+            }
+        ],
+        "conclusion": "Our strategy is built on trust, professionalism, and innovation — ensuring that every client receives exceptional legal support."
+    },
+    "advantages": {
+        "title": "Our Advantages",
+        "subtitle": "We combine expertise, innovation, and integrity to deliver exceptional legal services that our clients trust.",
+        "cards": [
+            {
+                "title": "Experienced Legal Team",
+                "text": "Our lawyers bring years of specialized experience across various legal fields, ensuring accurate, well-informed decisions."
+            },
+            {
+                "title": "Client-First Service",
+                "text": "We prioritize client needs and provide personalized legal solutions designed to deliver maximum protection and value."
+            },
+            {
+                "title": "Fast & Efficient Processing",
+                "text": "Our digital tools and optimized workflows ensure your legal matters are handled quickly, professionally, and securely."
+            },
+            {
+                "title": "Complete Transparency",
+                "text": "We maintain open communication, clear explanations, and honest guidance throughout every step of your case."
+            },
+            {
+                "title": "Strong Attention to Detail",
+                "text": "We review every document, contract, and legal detail meticulously to avoid risks and ensure accuracy."
+            },
+            {
+                "title": "Comprehensive Legal Coverage",
+                "text": "From corporate cases to personal matters, our firm delivers full-spectrum legal support tailored to each scenario."
+            }
+        ],
+        "conclusion": "Our advantages reflect our mission — to protect your rights, support your success, and deliver trusted legal excellence."
+    },
+    "responsibility": {
+        "title": "Our Social Responsibility",
+        "subtitle": "We believe that true legal excellence goes beyond services — it includes making a positive impact in our community and upholding the highest ethical values.",
+        "pillars": [
+            {
+                "title": "Community Support",
+                "text": "We actively contribute to community development by offering legal awareness programs, pro bono services, and support for social initiatives."
+            },
+            {
+                "title": "Ethical Commitment",
+                "text": "Integrity, honesty, and transparency are at the heart of our work. We ensure fair treatment and responsible legal practices in every case."
+            },
+            {
+                "title": "Environmental Responsibility",
+                "text": "We promote eco-friendly practices, reduce paper usage, and support digital transformation to protect the environment."
+            }
+        ],
+        "banner": {
+            "title": "A Promise of Integrity",
+            "text": "Our commitment to society reflects our belief that a better legal future is built through responsibility, awareness, and ethical leadership."
+        },
+        "commitment_title": "Our Commitment Includes:",
+        "commitments": [
+            "Supporting legal education and awareness programs",
+            "Promoting equal access to justice",
+            "Offering pro bono legal services",
+            "Maintaining transparency and ethical conduct",
+            "Encouraging sustainable and eco-friendly practices"
+        ],
+        "conclusion": "Through our social responsibility values, we aim to contribute to a strong, fair, and empowered community."
+    },
+    "our_services": {
+        "title": "Our Services",
+        "subtitle": "We offer a wide range of specialized legal services designed to protect your rights and support your personal and business goals.",
+        "read_more": "Read More"
+    },
+    "servicesList": [
+        {
+            "slug": "legal-consultation-services",
+            "title": "Legal Consultation Services",
+            "short": "Professional legal consultations for individuals and companies."
+        },
+        {
+            "slug": "foreign-investment-services",
+            "title": "Foreign Investment Services",
+            "short": "Guidance for investors on regulations, compliance, and market entry."
+        },
+        {
+            "slug": "contracts",
+            "title": "Contracts",
+            "short": "Drafting and reviewing contracts to ensure protection and clarity."
+        },
+        {
+            "slug": "defense-in-all-cases",
+            "title": "Defense in All Cases",
+            "short": "Comprehensive legal defense in criminal, civil, and commercial cases."
+        },
+        {
+            "slug": "corporate-services",
+            "title": "Services for Companies",
+            "short": "Complete legal support for companies, including establishment and compliance."
+        },
+        {
+            "slug": "arbitration",
+            "title": "Arbitration",
+            "short": "Professional arbitration services to resolve disputes efficiently."
+        }
+    ]
+}

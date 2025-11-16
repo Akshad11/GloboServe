@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@keyframes fadeOutSmooth {
+    0% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.fade-out {
+    animation: fadeOutSmooth 3s forwards;
+}
