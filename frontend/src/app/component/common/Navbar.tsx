@@ -48,8 +48,9 @@ export default function Navbar() {
 
     // useEffect(() => {
     //     async function load() {
+    //         let locale = 'en';
     //         const res = await fetch(
-    //             `${process.env.NEXT_PUBLIC_API_URL}/api/services?locale=en&populate=*`
+    //             `${process.env.NEXT_PUBLIC_API_URL}/api/services?locale=${locale}&pagination[pageSize]=100&populate=*`
     //         );
 
     //         const data = await res.json();
