@@ -244,7 +244,7 @@ export default function Navbar() {
                                             initial={{ opacity: 0, y: 15 }}
                                             animate={{ opacity: 1, y: 0 }}
                                             transition={{ delay: index * 0.03 }}
-                                            className="text-lg hover:text-yellow-200 cursor-pointer block"
+                                            className="text-sm hover:text-yellow-200 cursor-pointer block"
                                         >
                                             {service.title}
                                         </motion.a>
