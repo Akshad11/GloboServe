@@ -213,7 +213,8 @@ export default function Navbar() {
                         ${isRTL ? "text-right" : ""}
                     `}
                 >
-                    <p className="hover:text-gray-300">{t("about")}</p>
+                     <Link href="/"><p className="hover:text-gray-300">{t("home")}</p></Link>
+                     <Link href="/about"><p className="hover:text-gray-300">{t("about")}</p></Link>
 
                     {/* SERVICES DROPDOWN */}
                     <div>
@@ -247,7 +248,7 @@ export default function Navbar() {
                                             transition={{ delay: index * 0.03 }}
                                             className="text-sm hover:text-yellow-200 cursor-pointer block"
                                         >
-                                             <Link href={service.link}>{service.title}</Link>
+                                             {service.title}
                                         </motion.a>
                                     );
                                 })}
@@ -255,9 +256,9 @@ export default function Navbar() {
                         )}
                     </div>
 
-                    <p className="hover:text-gray-300">{t("team")}</p>
-                    <p className="hover:text-gray-300">{t("blogs")}</p>
-                    <p className="hover:text-gray-300">{t("contact")}</p>
+                    <Link href="/team"><p className="hover:text-gray-300">{t("team")}</p></Link>
+                    <Link href="/blogs"><p className="hover:text-gray-300">{t("blogs")}</p></Link>
+                    <Link href="/contact"><p className="hover:text-gray-300">{t("contact")}</p></Link>
 
                     <button className="border border-white px-5 py-2 rounded-md mt-4">
                         {t("book")}
